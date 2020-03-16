@@ -1,0 +1,13 @@
+package com.NewToursApplication_WebPages;
+
+public class NewTours_LogInPage {
+	
+	
+	// <a href="mercurysignon.php">SIGN-ON</a>
+	
+	// WebElement signOn=driver.findElement(By.linkText("SIGN-ON"));
+	// signOn.click();
+	
+	@FindBy(linkText="SIGN-ON")
+	WebElement signOn;
+}

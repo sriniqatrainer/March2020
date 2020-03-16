@@ -1,0 +1,42 @@
+package com.GRID;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class NewTours_UserRegistrationTest {
+	
+	
+	@Parameters("Browser")
+	
+	@Test
+	public void newUserRegistration(String browser)
+	{
+		System.out.println("The name of the Browser is : "+browser);
+		
+		// Information about the NODE's on which the test should be executed
+		
+		DesiredCapabilities cap = null;
+		
+		if(browser.equalsIgnoreCase("chrome"))
+		{
+			cap = DesiredCapabilities.chrome();
+			cap.setBrowserName("chrome");
+			cap.setPlatform(Platform.WINDOWS);
+		}
+		else
+			if(browser.equalsIgnoreCase("firefox"))
+			{
+				cap = DesiredCapabilities.firefox();
+				cap.setBrowserName("firefox");
+				cap.setPlatform(Platform.WINDOWS);
+			}
+		
+	}
+	
+	RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.6.1:4444/wd/hub"), cap);
+	
+
+}

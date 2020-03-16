@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100850" started-at="2020-03-10T11:35:50Z" finished-at="2020-03-10T11:37:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="100850" started-at="2020-03-10T11:35:50Z" finished-at="2020-03-10T11:37:31Z">
+      <class name="com.NewTours_TestCases.LogInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="setUp" is-config="true" duration-ms="13922" started-at="2020-03-10T17:05:50Z" finished-at="2020-03-10T17:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Register()[pri:1, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="Register" duration-ms="1341" started-at="2020-03-10T17:06:04Z" finished-at="2020-03-10T17:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="tearDown" is-config="true" duration-ms="1566" started-at="2020-03-10T17:06:05Z" finished-at="2020-03-10T17:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="setUp" is-config="true" duration-ms="12309" started-at="2020-03-10T17:06:07Z" finished-at="2020-03-10T17:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Support()[pri:2, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="Support" duration-ms="1183" started-at="2020-03-10T17:06:19Z" finished-at="2020-03-10T17:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Support -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="tearDown" is-config="true" duration-ms="1389" started-at="2020-03-10T17:06:21Z" finished-at="2020-03-10T17:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="setUp" is-config="true" duration-ms="12207" started-at="2020-03-10T17:06:22Z" finished-at="2020-03-10T17:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIn()[pri:3, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="logIn" duration-ms="55505" started-at="2020-03-10T17:06:34Z" finished-at="2020-03-10T17:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewTours_TestCases.LogInPageTest@1b26f7b2]" name="tearDown" is-config="true" duration-ms="1381" started-at="2020-03-10T17:07:30Z" finished-at="2020-03-10T17:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NewTours_TestCases.LogInPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

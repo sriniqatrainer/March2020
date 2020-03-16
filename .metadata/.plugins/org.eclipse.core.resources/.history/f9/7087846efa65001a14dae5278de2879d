@@ -1,0 +1,58 @@
+package com.GRID;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class GRID_DataProvider {
+	
+	@DataProvider
+	public Object[][] getData()
+	{
+		 Object[][] data = new Object[2][3];
+		
+		data[0][0]="tutorial";
+		data[0][1]="tutorial";
+		data[0][2]="chrome";	
+		
+		data[1][0]="tutorial";
+		data[1][1]="tutorial";
+		data[1][2]="firefox";
+		
+		return data;
+	}
+	
+	@Test(dataProvider="getData")
+public void LogInTest(String UserName,String Password,String browser)
+													
+									  
+	{
+		System.out.println(browser);
+		
+		DesiredCapabilities cap = null;
+		if(browser.equals("firefox"))
+		{
+			cap = DesiredCapabilities.firefox();
+			cap.setBrowserName("firefox");
+			cap.setPlatform(Platform.WINDOWS);
+		}
+		else 
+			if(browser.equals("chrome"))
+			{
+				cap = DesiredCapabilities.chrome();
+				cap.setBrowserName("chrome");
+				cap.setPlatform(Platform.WINDOWS);
+			}
+				
+RemoteWebDriver driver = new RemoteWebDriver
+									(new URL("http://192.168.6.1:4444/wd/hub"),cap);
+	//System.setProperty("webdriver.gecko.driver", "c:\\geckodriver.exe");
+		
+		driver.get("http://newtours.demoaut.com");
+		
+		driver.findElement(By.name("userName")).sendKeys(UserName);
+		driver.findElement(By.name("password")).sendKeys(Password);
+		driver.findElement(By.name("login")).click();
+		
+		driver.quit();
+
+}

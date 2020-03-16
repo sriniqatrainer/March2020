@@ -1,0 +1,5 @@
+Feature: LogIn Test
+
+To test login funcationality
+user should enter userName and Password and perfrom the test related to logIn to OrangeHRM Application
+

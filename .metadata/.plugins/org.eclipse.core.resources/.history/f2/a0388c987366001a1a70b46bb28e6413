@@ -1,0 +1,18 @@
+package com.OHRM;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+
+public class OHRM_LogInTest {
+	
+	WebDriver driver = null;
+	String url="http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/login";
+	
+	@BeforeTest
+	public void setUp()
+	{
+		System.setProperty("webdriver.gecko.driver", "");
+		
+	}
+
+}

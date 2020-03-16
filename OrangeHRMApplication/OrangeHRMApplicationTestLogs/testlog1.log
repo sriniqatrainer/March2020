@@ -1,0 +1,24 @@
+[main] INFO com.OHRM.OHRM_LogInTest - Firefox borwser Opened Successfully
+[main] INFO com.OHRM.OHRM_LogInTest -  Successfully navigated to OrangeHRM Application 
+[main] INFO com.OHRM.OHRM_LogInTest -  The Expected Title of OrangeHRM LogIN Page is :OrangeHRM
+[main] INFO com.OHRM.OHRM_LogInTest -  The actual title of the OrangeHRM WebPage is :OrangeHRM
+[main] INFO com.OHRM.OHRM_LogInTest -  Successfully navigated to OrangeHRM LogIN Page
+[main] INFO com.OHRM.OHRM_LogInTest -  Entered User Name 
+[main] INFO com.OHRM.OHRM_LogInTest -  Entered Password 
+[main] INFO com.OHRM.OHRM_LogInTest -  Clicked on logIn Button
+[main] INFO com.OHRM.OHRM_LogInTest -  The expected title of OrangeHRM HomePage is :OrangeHRM
+[main] INFO com.OHRM.OHRM_LogInTest -  The actual title of the OrangeHRM WebPage is :OrangeHRM
+[main] INFO com.OHRM.OHRM_LogInTest -  LogIn Successfull - PASS
+[main] INFO com.OHRM.OHRM_LogInTest -  OrangeHRM Application closed Successfully 
+[main] INFO com.OHRM.OHRM_LogInTest - Firefox borwser Opened Successfully
+[main] INFO com.OHRM.OHRM_LogInTest -  Successfully navigated to OrangeHRM Application 
+[main] INFO com.OHRM.OHRM_LogInTest -  The Expected Title of OrangeHRM LogIN Page is :OrangeHRM
+[main] INFO com.OHRM.OHRM_LogInTest -  The actual title of the OrangeHRM WebPage is :OrangeHRM
+[main] INFO com.OHRM.OHRM_LogInTest -  Successfully navigated to OrangeHRM LogIN Page
+[main] INFO com.OHRM.OHRM_LogInTest -  Entered User Name 
+[main] INFO com.OHRM.OHRM_LogInTest -  Entered Password 
+[main] INFO com.OHRM.OHRM_LogInTest -  Clicked on logIn Button
+[main] INFO com.OHRM.OHRM_LogInTest -  The expected title of OrangeHRM HomePage is :OrangeHRM
+[main] INFO com.OHRM.OHRM_LogInTest -  The actual title of the OrangeHRM WebPage is :OrangeHRM
+[main] INFO com.OHRM.OHRM_LogInTest -  LogIn Successfull - PASS
+[main] INFO com.OHRM.OHRM_LogInTest -  OrangeHRM Application closed Successfully 

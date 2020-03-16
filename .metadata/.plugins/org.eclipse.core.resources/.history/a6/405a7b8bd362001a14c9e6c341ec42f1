@@ -1,0 +1,20 @@
+package com.NewToursApplication_TestCases;
+
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+import com.NewToursApplication_WebPages.NewTours_LogInPage;
+
+public class NewTours_LogInPageTest extends BaseTest{
+
+	@Test
+	public void signOn()
+	{
+		NewTours_LogInPage newToursLogInPage = new NewTours_LogInPage();
+		
+		
+	}
+	
+	
+
+}

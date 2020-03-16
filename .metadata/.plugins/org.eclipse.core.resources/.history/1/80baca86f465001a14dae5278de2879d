@@ -1,0 +1,15 @@
+package com.GRID;
+
+public class NewTours_UserRegistrationTest {
+	
+	
+	@Parameters("Browser")
+	
+	@Test
+	public void newUserRegistration()
+	{
+		
+	}
+	
+
+}

@@ -1,0 +1,33 @@
+package com.stepDefination;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class OrangeHRM_logInTest {
+	
+	String url="http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/login";
+	String UserName="admin";
+	String Password="password";
+	
+	@Given("^Open Chrome Browser and Navigate to OrangeHRM Application$")
+	public void open_Chrome_Browser_and_Navigate_to_OrangeHRM_Application() throws Throwable 
+	{
+	
+		
+	}
+
+	@When("^User enters UserName and Password and Click on logIn button$")
+	public void user_enters_UserName_and_Password_and_Click_on_logIn_button() throws Throwable 
+	{
+	
+		
+	}
+
+	@Then("^User should be able to successfully logIn to the OrangeHRM Application and close the Application$")
+	public void user_should_be_able_to_successfully_logIn_to_the_OrangeHRM_Application_and_close_the_Application() throws Throwable {
+	   
+		
+	}
+
+}

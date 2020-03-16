@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewTours Application" duration-ms="444521" started-at="2020-03-15T04:41:03Z" finished-at="2020-03-15T04:48:28Z">
+    <groups>
+    </groups>
+    <test name="LogIn" duration-ms="401762" started-at="2020-03-15T04:41:03Z" finished-at="2020-03-15T04:47:45Z">
+      <class name="com.NewToursApplication.NewTours_LogInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewToursApplication.NewTours_LogInTest@51081592]" name="setUp" is-config="true" duration-ms="12894" started-at="2020-03-15T10:11:03Z" finished-at="2020-03-15T10:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.NewToursApplication.NewTours_LogInTest@51081592]" name="logInTest" duration-ms="387423" started-at="2020-03-15T10:11:16Z" finished-at="2020-03-15T10:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewToursApplication.NewTours_LogInTest@51081592]" name="tearDown" is-config="true" duration-ms="1427" started-at="2020-03-15T10:17:43Z" finished-at="2020-03-15T10:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NewToursApplication.NewTours_LogInTest -->
+    </test> <!-- LogIn -->
+    <test name="New User Registration" duration-ms="42659" started-at="2020-03-15T04:47:45Z" finished-at="2020-03-15T04:48:28Z">
+      <class name="com.NewToursApplication.NewTours_NewUserRegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewToursApplication.NewTours_NewUserRegistrationTest@4678c730]" name="setUp" is-config="true" duration-ms="11855" started-at="2020-03-15T10:17:45Z" finished-at="2020-03-15T10:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="register()[pri:1, instance:com.NewToursApplication.NewTours_NewUserRegistrationTest@4678c730]" name="register" duration-ms="1370" started-at="2020-03-15T10:17:57Z" finished-at="2020-03-15T10:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="aNewUserRegistration()[pri:2, instance:com.NewToursApplication.NewTours_NewUserRegistrationTest@4678c730]" name="aNewUserRegistration" duration-ms="28339" started-at="2020-03-15T10:17:58Z" finished-at="2020-03-15T10:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aNewUserRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewToursApplication.NewTours_NewUserRegistrationTest@4678c730]" name="tearDown" is-config="true" duration-ms="1090" started-at="2020-03-15T10:18:26Z" finished-at="2020-03-15T10:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NewToursApplication.NewTours_NewUserRegistrationTest -->
+    </test> <!-- New User Registration -->
+  </suite> <!-- NewTours Application -->
+</testng-results>

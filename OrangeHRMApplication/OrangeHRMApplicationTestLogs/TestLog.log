@@ -1,0 +1,24 @@
+2020-03-15 10:48:47,112 - com.OHRM.OHRM_LogInTest -INFO - Firefox borwser Opened Successfully
+2020-03-15 10:48:49,091 - com.OHRM.OHRM_LogInTest -INFO -  Successfully navigated to OrangeHRM Application 
+2020-03-15 10:48:49,382 - com.OHRM.OHRM_LogInTest -INFO -  The Expected Title of OrangeHRM LogIN Page is :OrangeHRM
+2020-03-15 10:48:49,443 - com.OHRM.OHRM_LogInTest -INFO -  The actual title of the OrangeHRM WebPage is :OrangeHRM
+2020-03-15 10:48:49,444 - com.OHRM.OHRM_LogInTest -INFO -  Successfully navigated to OrangeHRM LogIN Page
+2020-03-15 10:48:50,628 - com.OHRM.OHRM_LogInTest -INFO -  Entered User Name 
+2020-03-15 10:48:50,704 - com.OHRM.OHRM_LogInTest -INFO -  Entered Password 
+2020-03-15 10:48:52,516 - com.OHRM.OHRM_LogInTest -INFO -  Clicked on logIn Button
+2020-03-15 10:48:52,517 - com.OHRM.OHRM_LogInTest -INFO -  The expected title of OrangeHRM HomePage is :OrangeHRM
+2020-03-15 10:48:52,531 - com.OHRM.OHRM_LogInTest -INFO -  The actual title of the OrangeHRM WebPage is :OrangeHRM
+2020-03-15 10:48:52,532 - com.OHRM.OHRM_LogInTest -INFO -  LogIn Successfull - PASS
+2020-03-15 10:48:53,206 - com.OHRM.OHRM_LogInTest -INFO -  OrangeHRM Application closed Successfully 
+2020-03-15 10:52:07,271 - com.OHRM.OHRM_LogInTest -INFO - Firefox borwser Opened Successfully
+2020-03-15 10:52:08,512 - com.OHRM.OHRM_LogInTest -INFO -  Successfully navigated to OrangeHRM Application 
+2020-03-15 10:52:08,635 - com.OHRM.OHRM_LogInTest -INFO -  The Expected Title of OrangeHRM LogIN Page is :OrangeHRM
+2020-03-15 10:52:08,677 - com.OHRM.OHRM_LogInTest -INFO -  The actual title of the OrangeHRM WebPage is :OrangeHRM
+2020-03-15 10:52:08,679 - com.OHRM.OHRM_LogInTest -INFO -  Successfully navigated to OrangeHRM LogIN Page
+2020-03-15 10:52:09,762 - com.OHRM.OHRM_LogInTest -INFO -  Entered User Name 
+2020-03-15 10:52:09,841 - com.OHRM.OHRM_LogInTest -INFO -  Entered Password 
+2020-03-15 10:52:11,449 - com.OHRM.OHRM_LogInTest -INFO -  Clicked on logIn Button
+2020-03-15 10:52:11,449 - com.OHRM.OHRM_LogInTest -INFO -  The expected title of OrangeHRM HomePage is :OrangeHRM
+2020-03-15 10:52:11,461 - com.OHRM.OHRM_LogInTest -INFO -  The actual title of the OrangeHRM WebPage is :OrangeHRM
+2020-03-15 10:52:11,461 - com.OHRM.OHRM_LogInTest -INFO -  LogIn Successfull - PASS
+2020-03-15 10:52:12,177 - com.OHRM.OHRM_LogInTest -INFO -  OrangeHRM Application closed Successfully 

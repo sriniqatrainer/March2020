@@ -1,0 +1,19 @@
+package com.GRID;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class NewTours_UserRegistrationTest {
+	
+	
+	@Parameters("Browser")
+	
+	@Test
+	public void newUserRegistration(String browser)
+	{
+		
+		
+	}
+	
+
+}

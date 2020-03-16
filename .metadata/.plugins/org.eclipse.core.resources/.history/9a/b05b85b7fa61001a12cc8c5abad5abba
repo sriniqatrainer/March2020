@@ -1,0 +1,24 @@
+package com.GetTheText;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class EchoEcho {
+
+	public static void main(String[] args) {
+		
+	String url="http://www.echoecho.com/htmlforms10.htm";
+		
+		System.setProperty("webdriver.chrome.driver", "./driverFiles/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		// maximize the Browser
+		driver.manage().window().maximize();
+		
+		driver.get(url);
+		
+//	
+
+	}
+
+}
